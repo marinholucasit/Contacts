@@ -94,6 +94,8 @@ class Contact {
   String number;
   String img;
 
+  Contact(){}
+
   Contact.fromMap(Map map) {
     id = map[idColumn];
     name = map[nameColumn];
